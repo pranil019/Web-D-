@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Simple application form</h1>
+    <form action="post">
+      <div>
+        <label for="username">Enter Your Username</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+      > 
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscibe to newsletter</label>
+      </div>
+      <div>
+        <label for="comment"> Enter your Text</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50">Enter your paragraph</textarea>
+      </div>
+      <div>
+        <select name="fruits">
+            <option value="apple">Apple</      option>
+            <option value="banana">Banana</      option>
+            <option value="cherry">Cherry</      option>
+        </select>
+      </div>
+    </form>
+    <p>Hey I am a para</p>
+    <a href="https://www.google.com">Google</a>
+  </body>
+</html>
